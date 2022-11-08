@@ -17,6 +17,7 @@ buildscript {
         classpath(Plugins.SONARQUBE_GRADLE_PLUGIN)
         classpath(Plugins.HILT_GRADLE_PLUGIN)
         classpath(Plugins.NAVIGATION_SAFE_ARGS_GRADLE_PLUGIN)
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }

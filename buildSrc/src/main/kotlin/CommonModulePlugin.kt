@@ -10,8 +10,12 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 class CommonModulePlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
+        // Apply plugins common to all projects
+        project.plugins.apply("com.android.library")
         project.plugins.apply("kotlin-android")
-        project.plugins.apply("kotlin-android-extentsions")
+        project.plugins.apply("kotlin-parcelize")
+        project.plugins.apply("kotlin-kapt")
+        project.plugins.apply("dagger.hilt.android.plugin")
         project.plugins.apply("androidx.navigation.safeargs.kotlin")
 
         // Configure the android block

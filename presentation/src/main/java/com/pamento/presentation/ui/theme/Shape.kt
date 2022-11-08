@@ -1,4 +1,4 @@
-package com.pamento.nottapp.ui.theme
+package com.pamento.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

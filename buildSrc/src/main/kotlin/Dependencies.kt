@@ -151,14 +151,6 @@ object Libs {
             "io.github.raamcosta.compose-destinations:animations-core:_"
     }
 
-    object ComposeLibrary {
-        const val DEBUG = "com.worldline.composelibrary:debug-kit:_"
-
-        // TODO : modify when first release version is live
-        const val RELEASE = "com.worldline.composelibrary:debug-kit:_"
-        // const val RELEASE = "com.worldline.composelibrary:release-kit:_"
-    }
-
     object Coroutines {
         private const val VERSION = "_"
         const val CORE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:_"
