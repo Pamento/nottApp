@@ -78,12 +78,11 @@ android {
 //val mockImplementation by configurations
 
 dependencies {
-    //implementation(project(":presentation-compose")) // Switch between presentation and presentation-compose
-//    implementation(project(":presentation"))
-    //implementation(project(":domain"))
+    implementation(project(":presentation"))
+    implementation(project(":domain"))
     //implementation(project(":data"))
     // mockImplementation(project(":data-mock"))
-    //implementation(project(":common"))
+    implementation(project(":common"))
 
     implementation(Libs.Kotlin.STDLIB)
 

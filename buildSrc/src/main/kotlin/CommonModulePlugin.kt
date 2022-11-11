@@ -72,19 +72,19 @@ class CommonModulePlugin : Plugin<Project> {
                     }
                 }
 
-                flavorDimensionList.add("env")
-
-                productFlavors {
-                    create("prod") {
-                        dimension = "env"
-                    }
-                    create("rce") {
-                        dimension = "env"
-                    }
-                    create("mock") {
-                        dimension = "env"
-                    }
-                }
+//                flavorDimensionList.add("env")
+//
+//                productFlavors {
+//                    create("prod") {
+//                        dimension = "env"
+//                    }
+//                    create("rce") {
+//                        dimension = "env"
+//                    }
+//                    create("mock") {
+//                        dimension = "env"
+//                    }
+//                }
             }
         }
 
