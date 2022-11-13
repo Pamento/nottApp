@@ -1,4 +1,4 @@
-package com.pamento.nottapp
+package com.pamento.domain
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.pamento.nottapp", appContext.packageName)
+        assertEquals("com.pamento.domain.test", appContext.packageName)
     }
 }

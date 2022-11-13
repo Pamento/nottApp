@@ -1,0 +1,9 @@
+android {
+    lintOptions {
+        abortOnError false
+        lintConfig file("${project.rootDir}/config/quality/lint/lint.xml")
+        htmlReport true
+        htmlOutput file("$project.buildDir/reports/lint/lint.html")
+        warningsAsErrors true
+    }
+}
